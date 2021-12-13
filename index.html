@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Сапёр</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body oncontextmenu="return false;">
+        <div class="gamearea">
+            <div class="settings">
+                <div class="bomb-cont"><img src="img/bomb.png" alt="Бомб: " class="img"><span class="bombs-number">0</span></div>
+                <div class="game-cont" onclick="newGame(game)"><img src="img/newgame.png" alt="Новая игра" class="img" id="emoji"></div>
+                <div class="flag-cont" onclick="flag()"><img src="img/flag.png" alt="Флажок" class="img"></div>
+            </div>
+
+            <div class="field">
+            </div>
+        </div>
+
+        <div class="size-cont">
+            Размер игры: 
+            <select class="size" name="size" onchange="changeSize(game)">
+                <option value="9">9x9</option>
+                <option value="16">16x16</option>
+            </select>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

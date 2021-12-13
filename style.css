@@ -1,0 +1,120 @@
+body {
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+.gamearea {
+    background-color: aliceblue;
+    width: 35%;
+    height: 70%;
+    margin: auto;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 2px solid darkgrey;
+    height: 10%;
+}
+
+.bomb-cont, .game-cont, .flag-cont {
+    height: 90%;
+    width: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: lightgray;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid darkgrey;
+    border-bottom: 3px solid darkgrey;
+    color: red;
+}
+
+.game-cont:hover, .flag-cont:hover {
+    background-color: darkgray;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.field {
+    height: 90%;
+    display: grid;
+}
+
+.block {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+}
+
+.hidden {
+    background-color: lightgray;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid darkgrey;
+    border-bottom: 3px solid darkgrey;
+}
+
+.hidden:hover, .flag-on {
+    background-color: darkgray;
+}
+
+.bomb-img, .flag-img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.size-cont {
+    width: 12%;
+    height: auto;
+    color: black;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.n1 {
+    color: blue;
+}
+
+.n2 {
+    color: green;
+}
+
+.n3 {
+    color: red;
+}
+
+.n4 {
+    color: orange;
+}
+
+.n5 {
+    color: purple;
+}
+
+.n6 {
+    color: yellow;
+}
+
+.n7 {
+    color: aqua;
+}
+
+.n8 {
+    color: chartreuse;
+}
+
+.bs9 {
+    font-size: 30px;
+}
+
+.bs16 {
+    font-size: 15px;
+}
